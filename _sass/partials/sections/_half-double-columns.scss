@@ -1,0 +1,13 @@
+.half-double-columns {
+    @include flex-align(stretch);
+    &__title {
+        margin-right: 3.125rem;
+        padding: 1rem 1rem 1rem 3.125rem;
+        font-size: 1.5rem;
+        line-height: normal;
+    }
+    &__description {
+        padding: 1rem 1rem 1rem 3.125rem;
+        margin-right: 3.125rem;
+    }
+}

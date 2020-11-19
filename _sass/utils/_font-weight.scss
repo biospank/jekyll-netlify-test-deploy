@@ -1,0 +1,22 @@
+.weight {
+  &--thin {
+    font-weight: 100;
+  }
+  &--light {
+    font-weight: 300;
+  }
+  &--regular {
+    font-weight: 400;
+    font-family: 'helveticaregular';
+  }
+  &--medium {
+    font-weight: 500;
+  }
+  &--bold {
+    font-weight: 700;
+    font-family: 'helveticabold';
+  }
+  &--black {
+    font-weight: 900;
+  }
+}

@@ -1,0 +1,24 @@
+.triangle {
+    @include size(0, 0);
+    &--up {
+        @include border(20px, transparent, left);
+        @include border(20px, transparent, right);
+        @include border(30px, white, bottom);
+    }
+    &--down {
+        @include transform(translateY(4px));
+        @include border(20px, transparent, left);
+        @include border(20px, transparent, right);
+        @include border(30px, white, top); 
+    }
+    &--left {
+        @include border(50px, transparent, bottom);
+        @include border(100px, white, right);
+        @include border(50px, transparent, top);
+    }
+    &--right {
+        @include border(50px, transparent, bottom);
+        @include border(100px, white, left);
+        @include border(50px, transparent, top);
+    }
+}

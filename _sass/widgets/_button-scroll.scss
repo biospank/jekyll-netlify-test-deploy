@@ -1,0 +1,11 @@
+.button__scroll {
+    @include radius(70px);
+    @include border(2px, white);
+    background-color: transparent;
+    @include flex-align(center);
+    @include flex-justify(center);
+    @extend %d-flex;
+    &:hover {
+        
+    }
+}

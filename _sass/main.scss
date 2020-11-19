@@ -1,0 +1,26 @@
+@import "vendors/normalize";
+@import "vendors/animate";
+@import "vendors/bootstrap";
+@import "vendors/fontawesome";
+@import "helpers/_variables";
+@import "helpers/_custom-mixin";
+@import "helpers/_placeholders";
+@import "helpers/_fonts";
+@import "utils/_font-weight";
+@import "utils/_bg";
+@import "utils/_media";
+@import "widgets/_button-scroll";
+@import "widgets/_triangles";
+@import "partials/header/_header";
+@import "partials/header/_main-nav";
+@import "partials/sections/_video-intro";
+@import "partials/sections/_half-double-columns";
+@import "partials/sections/_services";
+@import "partials/sections/_asymmetric-columns";
+
+body, html {
+    overflow-x: hidden;
+    height: 100%;
+    font-size: 16px;
+    font-family: "helveticaregular";
+}

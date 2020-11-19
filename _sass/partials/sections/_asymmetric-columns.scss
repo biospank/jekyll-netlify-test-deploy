@@ -1,0 +1,25 @@
+.asymmetric-columns {
+    &__text {
+        @include respond-to(min-width, 768px) {
+            margin-left: 1rem;
+        } 
+    }
+    &__title {
+        margin-bottom: 1rem;
+        padding: 1rem 1.8rem;
+        font-size: 1.5rem;
+        line-height: normal;
+        @include respond-to(min-width, 768px) {
+            margin-bottom: 1.5rem;
+        } 
+    }
+    &__description {
+        padding: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        @include respond-to(min-width, 576px) {
+            margin-left: 0;
+            margin-right: 2rem;
+        }
+    }
+}

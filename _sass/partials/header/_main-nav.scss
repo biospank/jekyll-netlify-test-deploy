@@ -1,0 +1,28 @@
+.header {
+    &__main-nav {
+        .main-nav {
+            &__item {
+                &.nav-item {
+                    font-family: "helveticabold";
+                    @include font-style(1.375rem, $main-color, bold);
+                    @include border(3px, #3c3c3c, right);
+                }
+                &:last-child {
+                    border-right: none;
+                }
+            }
+            &__link {
+                &.nav-link {
+                    font-family: "helveticabold";
+                    padding: 0.8rem 1.0625rem 0.4rem;
+                    @include transition(all 0.3s ease);
+                    @include font-style(1.375rem, $main-color, bold);
+                    &:hover {
+                        color: darken($color: $main-color, $amount: 10%);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
